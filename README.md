@@ -50,3 +50,9 @@ chmod +x install.sh
 sudo nginx
 sudo nginx -s reload
 sudo nginx -s stop
+
+### Kill old Nginx on port 80
+
+sudo apt install net-tools
+sudo netstat -tunlp
+sudo kill -9 17421

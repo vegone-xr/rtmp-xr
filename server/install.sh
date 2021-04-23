@@ -27,12 +27,13 @@ mkdir /var/lock/nginx
 rm -rf /tmp/build
 sudo mkdir -p /usr/local/nginx/logs
 sudo wget -O /etc/systemd/system/nginx.service https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.service
-sudo systemctl enable nginx
+# sudo nginx
+sudo systemctl daemon-reload
+# sudo systemctl enable nginx
 sudo systemctl start nginx
 
 # Config Nginx
-wget -O /home/ubuntu/nginx.conf https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.conf
-sudo cp /home/ubuntu/nginx.conf /etc/nginx/nginx.conf
+sudo wget -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.conf
 sudo nginx -s reload
 
 # Install And Run NodeJs
