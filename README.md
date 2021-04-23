@@ -31,9 +31,11 @@ Clé SSH : ssh_key_4096
 Nombre d'instances à créer : 1
 Nom de l'instance : b2-7-gra3-multistream
 Script de post-installation :
+
     #!/bin/bash
 
     echo "test" >> test.txt
+    
 Sauvegarde automatisée des instances : Oui
 Sélectionnez une période de facturation : Horaire
 
