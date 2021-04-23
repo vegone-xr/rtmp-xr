@@ -26,3 +26,8 @@ sudo make install
 mkdir /var/lock/nginx
 rm -rf /tmp/build
 sudo mkdir -p /usr/local/nginx/logs
+
+# Config Nginx
+wget -O /home/ubuntu/nginx.conf https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.conf
+sudo cp /home/ubuntu/nginx.conf /etc/nginx/nginx.conf
+sudo nginx -s reload
