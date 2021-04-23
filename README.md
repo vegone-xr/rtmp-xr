@@ -35,7 +35,7 @@ Script de post-installation :
     #!/bin/bash
 
     echo "test" >> test.txt
-    
+
 Sauvegarde automatisée des instances : Oui
 Sélectionnez une période de facturation : Horaire
 
@@ -44,3 +44,9 @@ Sélectionnez une période de facturation : Horaire
 wget https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/install.sh
 chmod +x install.sh
 ./install.sh
+
+### NGINX
+
+sudo nginx
+sudo nginx -s reload
+sudo nginx -s stop
