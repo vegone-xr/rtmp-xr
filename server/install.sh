@@ -26,7 +26,7 @@ sudo make install
 mkdir /var/lock/nginx
 rm -rf /tmp/build
 sudo mkdir -p /usr/local/nginx/logs
-wget -O /etc/systemd/system/nginx.service https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.service
+sudo wget -O /etc/systemd/system/nginx.service https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.service
 sudo systemctl enable nginx
 sudo systemctl start nginx
 
