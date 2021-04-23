@@ -13,6 +13,7 @@ https://forums.linuxmint.com/viewtopic.php?t=335378
 http://nginx-rtmp.blogspot.com/
 https://dev.to/lax/rtmps-relay-with-stunnel-12d3
 https://obsproject.com/forum/resources/obs-studio-stream-to-multiple-platforms-or-channels-at-once.932/
+https://www.osradar.com/install-nginx-from-the-source-code-debian-ubuntu/
 
 NGINX VERSION :
 https://nginx.org/en/download.html

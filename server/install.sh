@@ -27,8 +27,10 @@ mkdir /var/lock/nginx
 rm -rf /tmp/build
 sudo mkdir -p /usr/local/nginx/logs
 sudo wget -O /etc/systemd/system/nginx.service https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/nginx.service
-# sudo nginx
 sudo systemctl daemon-reload
+# sudo nginx
+# sudo nginx -s reload
+# sudo nginx -s stop
 # sudo systemctl enable nginx
 sudo systemctl start nginx
 
