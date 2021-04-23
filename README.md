@@ -39,6 +39,6 @@ Sélectionnez une période de facturation : Horaire
 
 ### Lancer le script d'installation
 
-wget https://raw.githubusercontent.com/benoitadam/multistream/main/server/install.sh
+wget https://raw.githubusercontent.com/vegone-xr/rtmp-xr/main/server/install.sh
 chmod +x install.sh
 ./install.sh
